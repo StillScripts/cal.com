@@ -499,7 +499,7 @@ const EventTypeListHeading = ({ profile, membershipCount }: EventTypeListHeading
         )}
         {profile?.slug && (
           <Link href={`${CAL_URL}/${profile.slug}`}>
-            <a className="block text-xs text-neutral-500">{`${CAL_URL?.replace("https://", "")}/${
+            <a className="block text-sm text-neutral-500">{`${CAL_URL?.replace("https://", "")}/${
               profile.slug
             }`}</a>
           </Link>
